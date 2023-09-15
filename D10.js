@@ -387,6 +387,7 @@ const tags = document.getElementsByTagName('td')
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
 
+
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
@@ -401,10 +402,14 @@ list.appendChild(li)
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
+const empty = document.getElementById('myList')
+empty.innerHTML = `" "`
 
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
+const newClass = document.getElementsByTagName('tr')
+newClass.classList.add('test')
 
 // [EXTRA] JS Avanzato
 
